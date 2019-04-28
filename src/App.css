@@ -1,0 +1,56 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100vw;
+    overflow-x: auto;
+}
+
+.App > h1 {
+    text-align: center;
+}
+
+.App > button#csvSaver {
+    float: right;
+    padding: 5px;
+    margin: 10px;
+}
+
+#animalTable {
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#animalTable > thead > tr, #animalTable > thead > tr:nth-child(1) > th {
+    background: #EDCBAA; 
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#animalTable > thead > tr:nth-child(2) > th {
+    background: #EDCCAA; 
+    border: 1px solid black;
+}
+
+#animalTable > thead > tr:nth-child(2) > th > span {
+    display: block;
+    overflow: hidden;
+}
+
+.filterText {
+    width: 100%;
+}
+
+#animalTable > tbody > tr, #animalTable > tbody > tr > td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#animalTable > tbody > tr:nth-child(even) {
+    background: #EEEEEE;
+}
+
+#animalTable > tbody > tr:nth-child(odd) {
+    background: #CFCFCF;
+}

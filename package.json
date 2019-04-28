@@ -1,0 +1,33 @@
+{
+  "name": "taxonomy",
+  "version": "1.0.0",
+  "description": "A data table to help introduce information about the animal kingdom.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "css-loader": "^2.1.1",
+    "os": "^0.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4",
+    "sqlite3": "^4.0.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "webpack-dev-server --mode development",
+    "server": "node src/server/index.js"
+  },
+  "author": "ajexplar",
+  "license": "ISC"
+}
