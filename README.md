@@ -33,7 +33,7 @@ Unzip the files, launch a terminal, and call `npm run server` to launch the Java
 For the moment, the server and client must be run separately. In the future, a proper production build may be added that will merge the two into a single command.
 
 ## Author
-a sample ReactJS one-page application by ajexplar
+a proof-of-concept ReactJS application by ajexplar
 
 ## TODO
 
